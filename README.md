@@ -1,79 +1,80 @@
-# Project Group OASIS — Starter Website & README Kit
+# Ecoregional Models: PNW Regime Shifts Hazards — Starter Website & README Kit
 
-This guide is written for people who may be brand new to GitHub. It will show you, step by step, how to use this repository as both:
+This guide supports Innovation Summit 2025 Group 10 as we use this repository for two linked purposes:
 
-1. A **website** to communicate your science to others.
-2. A **hub for sharing code** within your group.
+1. A **public-facing website** that shares our progress and findings during the sprint.
+2. A **shared code and documentation hub** where teammates collaborate on analyses.
 
+The instructions below keep the original template structure but highlight details specific to our project (repository name, storage links, and GitHub Pages workflow).
 
-**Template users:** If you are using this repository as a template, start with [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) for the required name and link updates.
+**Template users:** If you cloned this from the original template, review [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) for a full checklist of items to customize (names, links, branding, etc.).
 
 ---
 
 ## 1) Understanding the Repository
 
-Think of this repository like a **shared online folder**. Inside it, there are a few important parts:
+Think of this repository as a **shared online workspace**. Key pieces include:
 
-* **README.md** — This file (what you are reading now). It explains how things work.
-* **data/** — Optional. Small datasets can go here.
-* **outputs/** — Optional. Figures, results, and reports can go here.
+* **README.md** — This file (what you’re reading) explains the structure and setup steps.
+* **code/** — Python/R scripts, notebooks, and other runnable pieces you want to share.
+* **docs/** — Markdown that powers the public website (`https://cu-esiil.github.io/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/`).
+* **documentation/** — Optional space for internal notes, longer briefs, or background material.
 
-### Storage
+### Storage expectations
 
-- **Code (`code/`)** — Share scripts, notebooks, and analysis utilities. Keep filenames clear and include short comments at the top so teammates understand the purpose quickly.
-- **Documentation (`docs/` and `documentation/`)** — Everything inside `docs/` powers the public website, while `documentation/` can host internal notes or extended write-ups. Update these areas regularly so the story on the site and your working docs stay in sync.
+- **Code (`code/`)** — Keep filenames clear and add a short comment or README so others know how to run each script/notebook.
+- **Documentation (`docs/` and `documentation/`)** — `docs/` is the public story; `documentation/` can hold extended notes. Reference major updates on the website so visitors understand current findings.
 
 ---
 
 ## 2) How to Update the Website
 
-The website is built from the `docs/` folder. Every time you change a file there, the website updates automatically.
+Anything inside `docs/` becomes part of the website. When you change a Markdown file there, the site rebuilds via GitHub Actions.
 
-### Step by Step
+### Step by step
 
-1. In the repository, click the **docs/** folder.
-2. Click on `index.md`. This is the home page of your website.
-3. In the top right, click the pencil icon (✏️) to edit.
-4. Change the text to describe your project (for example, add your team’s name and a short description of what you’re studying).
-5. Scroll down. In the **Commit changes** box, write a short message like `updated homepage with project info`.
+1. In the repository, open the **docs/** folder.
+2. Click `index.md` — this is the homepage.
+3. Use the ✏️ **Edit** button (top right) to modify the file directly in your browser.
+4. Update text, swap images (see `docs/assets/`), and adjust links to match our project.
+5. At the bottom, write a short commit message like `update homepage intro`.
 6. Click **Commit changes**.
 
-> That’s it! In about a minute, refresh your website link and you’ll see your changes.
+> The site rebuilds automatically after each commit. Wait a minute, then refresh the public URL to verify your edits.
 
-**Note:** If your website is not set up yet, go to **Settings → Pages → Build and deployment**. Set the Source to **Deploy from a branch**, then choose `main` and `/docs`. GitHub will give you a link to your site.
+**Need to enable Pages first?** Make sure GitHub Pages is configured to use the included MkDocs workflow. See the setup section below.
 
 ---
 
 ## 3) How to Share Code
 
-Code lives in the `src/` folder. You can put scripts, Jupyter notebooks, or R files here.
+Put scripts, notebooks, or supporting utilities in the `code/` directory. Organize by topic if helpful (`code/data-prep/`, `code/modeling/`, etc.).
 
-### Step by Step
+### Step by step
 
-1. In the repository, click the **src/** folder.
-2. Click **Add file → Upload files** (to add something from your computer), or **Create new file**.
-3. Name your file something clear, like `data_cleaning.py` or `fire_analysis.R`.
-4. At the top of the file, write a short comment about what the code does.
-5. Scroll down, write a commit message like `added first data cleaning script`, and click **Commit changes**.
+1. In the repository, open the **code/** folder.
+2. Choose **Add file → Upload files** (to add from your computer) or **Add file → Create new file**.
+3. Name the file clearly (e.g., `hydro_model.py`, `fire-risk.ipynb`).
+4. At the top of the file, add a short comment summarizing its purpose or usage.
+5. Provide a concise commit message such as `add initial hydro model script`, then **Commit changes**.
 
-Now your teammates can see and use your code.
+Collaborators can now review, run, and iterate on shared code.
 
 ---
 
 ## 4) Common Tasks
 
-* **Add a new webpage:** Create a new `.md` file inside `docs/` (like `methods.md`). It will become a new page on your site.
-* **Add a picture:** Put the file in `docs/assets/` and add it to a page with `![caption](assets/filename.png)`.
-* **Add team members:** Edit `docs/team.md` to add names and roles.
+* **Add a new webpage:** Create another `.md` file inside `docs/`. MkDocs will publish it automatically when linked from navigation (`mkdocs.yml`) or the homepage.
+* **Add an image:** Upload to `docs/assets/` and embed with standard Markdown syntax: `![caption](assets/filename.png)`.
+* **Add team members:** Edit `docs/team.md` (or the **Team** section on `index.md`) with names, roles, and contact details.
 
 ---
 
 ## 5) Tips for Beginners
 
-* Don’t worry about breaking things — everything can be fixed, and old versions are saved.
-* Small updates are valuable. Even a one-line change is a real contribution.
-* Write commit messages as if explaining to your future self.
-* Large data files (over \~50 MB) should not go in GitHub. Instead, link to them from the `data/` page.
+* Small, frequent commits are easier to review than large ones.
+* Don’t worry about perfection—capturing progress is more important than polish during the sprint.
+* Keep large data files out of GitHub. Use the CyVerse group folder and link to the data from the **Data** page.
 
 ---
 
@@ -81,171 +82,73 @@ Now your teammates can see and use your code.
 
 * [GitHub Pages basics](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 * [Editing files in your browser](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)
+* [MkDocs Material documentation](https://squidfunk.github.io/mkdocs-material/)
 
 ---
 
 ## 7) First Things to Try
 
-1. Edit the `docs/index.md` file and add your project description.
-2. Add yourself to the `docs/team.md` page.
-3. Upload your first code file to the `src/` folder.
-4. Refresh your website link and see your changes live.
+1. Edit `docs/index.md` with our project description and an initial visual.
+2. Add yourself to the team section so visitors know who’s involved.
+3. Upload or link our first analysis notebook in `code/`.
+4. Refresh the live site and confirm the updates are visible.
 
-Congratulations — you’re now using GitHub to communicate your science and share code!
+Congratulations—you’re contributing to the Ecoregional Models: PNW Regime Shifts Hazards project!
 
 ---
 
-## Beginner Mode: From zero to website (no command line)
+## Beginner mode: from zero to website (no command line)
 
-> This section is written for someone who has **never used GitHub**. Follow it in order. You can do all of this in your web browser.
+> This section walks someone new to GitHub through the essentials. Everything can be done in a browser.
 
 ### What you need
 
-* A GitHub account (free). If you don’t have one: [https://github.com](https://github.com) → **Sign up**.
-* A link to your group’s repository (ask your instructor/lead if you don’t have it).
+* A GitHub account (free). Sign up at [https://github.com](https://github.com) if you don’t have one.
+* Access to this repository: <https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10>.
 
-### Step 1 — Join your group’s repo
+### Step 1 — Join the repository
 
-1. Open the invitation link you received by email or in GitHub notifications.
-2. Click **Accept invitation**. You now have permission to edit.
-
-**Why this matters:** GitHub only lets approved people change files. Accepting the invite gives you access.
+1. Open the invitation link you received by email or GitHub notification.
+2. Click **Accept invitation** so you can edit files.
 
 ### Step 2 — Open the project home
 
-1. Visit your repository link (it looks like `https://github.com/ORG/Project_group_OASIS`).
-2. You’ll see folders like `docs/`, `src/`, and files like `README.md`.
+1. Visit <https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10>.
+2. Explore folders like `docs/`, `code/`, and files like `README.md`.
 
-**Why this matters:** This is the “front door” to your project’s files.
+### Step 3 — Turn on the website (GitHub Pages via Actions)
 
-### Step 3 — Turn on the website (GitHub Pages)
+1. Click the **Settings** tab of the repository.
+2. In the left sidebar, choose **Pages**.
+3. Under **Build and deployment → Source**, select **GitHub Actions**.
+4. Approve the prompt to allow the workflow if GitHub asks.
+5. Trigger the **Deploy site (MkDocs)** workflow from the **Actions** tab (choose the workflow → **Run workflow** → branch `main`).
+6. After the job succeeds, the live site appears at <https://cu-esiil.github.io/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/>.
 
-1. Click **Settings** (top menu of the repo).
-2. In the left sidebar, click **Pages**.
-3. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-4. Under **Branch**, choose **main** and **/docs** folder.
-5. Click **Save**. A green box will show the site link after it builds (usually 1–2 minutes).
+### Step 4 — Edit the homepage
 
-**Why this matters:** This tells GitHub to publish everything inside `docs/` as a website.
+1. Return to the **Code** tab and open `docs/index.md`.
+2. Click the **pencil icon** to edit.
+3. Update the title, intro paragraph, and hero links to reflect our project.
+4. Write a short commit message (e.g., `customize homepage`).
+5. Click **Commit changes**.
 
-### Step 4 — Edit the homepage text
+### Step 5 — Check the live site
 
-1. Click the **Code** tab to return to the file view.
-2. Open the `docs/` folder → click `index.md`.
-3. Click the **pencil icon** to edit.
-4. Change the title and first paragraph so they describe your project.
-5. Scroll to the bottom, write a short **Commit message** (for example: `update homepage`).
-6. Click **Commit changes**.
-
-**Why this matters:** Saving (committing) creates a new version of your page and triggers the website to rebuild.
-
-### Step 5 — See your changes online
-
-1. Go back to **Settings → Pages** (or use the link shown there).
-2. Open your site in a new tab.
-3. Refresh after a minute if you don’t see changes yet.
-
-**Why this matters:** Now you can share a public link to your project.
+1. Visit <https://cu-esiil.github.io/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/>.
+2. Refresh after a minute—your edits should appear once the workflow completes.
 
 ### Step 6 — Add a new page
 
-1. In the `docs/` folder, click **Add file → Create new file**.
-2. Name it something like `methods.md`.
-3. Paste a small outline (what, why, how) and click **Commit changes**.
-4. To add it to the top navigation, open `docs/_config.yml`, find `header_pages:`, and add `- methods.md` on its own line. Commit.
-
-**Why this matters:** You can grow your site one page at a time.
+1. Inside `docs/`, choose **Add file → Create new file**.
+2. Name it something like `methods.md` and paste an outline.
+3. Commit the file.
+4. To expose it in the top navigation, open `docs/_config.yml`, find `header_pages:`, and add `- methods.md`.
 
 ### Step 7 — Add an image
 
-1. Open `docs/assets/` → **Add file → Upload files** → pick your image.
-2. In a page (e.g., `index.md`), insert: `![Alt text](assets/your_image.png)` and commit.
+1. Upload a photo or figure to `docs/assets/` (drag-and-drop works).
+2. Embed it in Markdown: `![Caption](assets/filename.png)`.
+3. Commit the change and refresh the live site.
 
-**Why this matters:** Images help explain your science.
-
-### Step 8 — Share code with the team
-
-1. Open the `src/` folder → **Add file** → upload a script or create a new file.
-2. At the top of the file, write 2–3 lines that explain what it does, inputs, and outputs.
-3. Commit changes.
-4. In `docs/code.md`, add a short bullet linking to your file, e.g. `- src/pipeline.py — end-to-end pipeline` and commit.
-
-**Why this matters:** The website becomes a clear map that points to your working code.
-
-### Step 9 — Post an update
-
-1. Open `docs/updates.md` → pencil icon.
-2. Add a new dated section (copy the example) with 1–3 bullets of what changed.
-3. Commit.
-
-**Why this matters:** Small updates build a readable project history.
-
-### Step 10 — Share the site link
-
-* Copy the Pages URL from **Settings → Pages** and send it to your group or stakeholders.
-
-**You’re done.** You’ve published a site and shared code without using the command line.
-
----
-
-## Quick‑start checklist (printable)
-
-* [ ] I can open the repo and see `docs/`, `src/`, and `README.md`.
-* [ ] Pages is enabled: **main** + **/docs**.
-* [ ] I edited `docs/index.md` and committed changes.
-* [ ] I can open the public site link and see my edits.
-* [ ] I added or uploaded one script to `src/`.
-* [ ] I linked that script from `docs/code.md`.
-* [ ] I posted one dated entry in `docs/updates.md`.
-
----
-
-## Plain‑language glossary
-
-* **Repository (repo):** Your project’s online folder.
-* **Commit:** A saved change with a short note. Think “Save with a message.”
-* **Branch:** A workspace for changes. Beginners can stay on **main**.
-* **Pull request (PR):** A proposal to merge changes. Useful later; optional for now.
-* **GitHub Pages:** A way to turn files in `docs/` into a website.
-* **Markdown (`.md`):** A simple text format for writing pages with headings, links, and images.
-
----
-
-## Troubleshooting (common fixes)
-
-**I don’t see the Pages option.**
-You might not have permission. Ask your lead to enable it, or ensure you’re in the repository’s **Settings** (not your user settings).
-
-**My site URL shows 404.**
-Wait 1–2 minutes after enabling Pages or after a commit. Refresh. Confirm **Source** is set to **Deploy from a branch** and **Branch** = `main` and **Folder** = `/docs`.
-
-**My changes didn’t appear.**
-Refresh the site. Confirm you edited a file inside `docs/`. Check commit history on the repo’s home page to see if your change saved.
-
-**Images don’t load.**
-Make sure the image is inside `docs/assets/` and the link is `![Alt text](assets/your_image.png)` (no leading slash).
-
-**I uploaded a big file and got an error.**
-GitHub limits file size. Keep data small in the repo. Link to external storage for big datasets.
-
-**I’m afraid of breaking things.**
-Every change is tracked. You can always edit again or revert. Small, frequent commits are safest.
-
----
-
-## Teaching notes (why this pedagogy works)
-
-* **Immediate reward:** Editing `index.md` shows a visible website change fast.
-* **One mental model:** “Files in `docs/` become web pages.”
-* **Low friction:** No installs or command line required.
-* **Narrated steps:** Each action explains *why* it matters to build understanding.
-
----
-
-## Next level (optional, later)
-
-* Use branches + pull requests for review before merging to `main`.
-* Add a `requirements.txt` or `environment.yml` to document software packages.
-* Create a `CONTRIBUTING.md` with team norms (naming, reviews, issue labels).
-* Add automatic checks (CI) to run tests when code changes.
-
+You now know how to collaborate, publish updates, and keep the Innovation Summit audience informed.

@@ -1,20 +1,22 @@
-# Project Title 
+# Ecoregional Models: PNW Regime Shifts Hazards
 
 
-<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/Project_group_OASIS/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
+<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
 
 <!-- =========================================================
 HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
 ![Wide banner of the study system](assets/hero.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/hero.jpg)
+[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/hero.jpg)
 
-**One sentence on impact:** In 3 days, we explore *X* to inform *Y*, producing actionable visuals, a concise brief, and shareable code.
+**One sentence on impact:** In three days, we spotlight emerging Pacific Northwest regime-shift hazards and deliver decision-ready visuals, a concise brief, and shareable code.
 
-**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code) · [Data & access](data.md)**
+**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/tree/main/code) · [Data & access](data.md)**
 
-> **About this site:** This is a public, in-progress record of a 3-day project at the Innovation Summit. Edit everything here in your browser: open a file → pencil icon → Commit changes.
+This sprint assembles rapid-turnaround models, visuals, and narratives that clarify how coupled ecological and social systems across the Pacific Northwest may tip into new regimes under emerging hazards.
+
+> **About this site:** Innovation Summit 2025 Group 10 uses this page as a live log of questions, methods, and findings. Edit everything here in your browser: open a file → pencil icon → Commit changes.
 
 ---
 
@@ -56,7 +58,7 @@ Explain who is impacted and how this could change decisions or understanding.
 ### Field notes / visuals
 <!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
 ![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
-[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/day1_whiteboard.jpg)
+[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/day1_whiteboard.jpg)
 *Caption: What this shows and why it’s useful today.*
 
 > **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
@@ -71,7 +73,7 @@ Explain who is impacted and how this could change decisions or understanding.
 - **Source A**
 
   ![Pattern revealed during exploration](assets/explore_data_plot.png)
-[Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/explore_data_plot.png)
+[Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/explore_data_plot.png)
   *Snapshot showing initial data patterns.*
 
 - Source B — link and 1-line description
@@ -90,12 +92,12 @@ Explain who is impacted and how this could change decisions or understanding.
 <!-- EDIT: Swap examples; keep file sizes modest. -->
 #### Static figure
 ![Early pattern we’re seeing](assets/figure1.png)
-[Raw photo location: figure1.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/figure1.png)
+[Raw photo location: figure1.png](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/figure1.png)
 *Figure 1.* One line on what this suggests.
 
 #### Animated change (GIF)
 ![Seasonal/temporal change animation](assets/change.gif)
-[Raw photo location: change.gif](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/change.gif)
+[Raw photo location: change.gif](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/change.gif)
 *Figure 2.* One line on what changes across time.
 
 #### Interactive map (iframe)
@@ -113,7 +115,7 @@ Explain who is impacted and how this could change decisions or understanding.
 *Focus: synthesis; highlight 2–3 visuals that tell the story; keep text crisp. Practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
 
 ![Team photo at start of Day 3](assets/team_photo.jpg)
-[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/team_photo.jpg)
+[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
 <!-- EDIT: 2–4 bullets, each a headline in plain language with a number if possible. -->
@@ -124,15 +126,15 @@ Explain who is impacted and how this could change decisions or understanding.
 ### Visuals that tell the story 📣
 <!-- EDIT: Swap visuals; prioritize clarity. -->
 ![Lead conclusion visual placeholder](assets/fire_hull.png)
-[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/fire_hull.png)
+[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/fire_hull.png)
 *Visual 1.* Swap in the primary graphic that clearly communicates your core takeaway.
 
 ![Supporting panels for key insights](assets/hull_panels.png)
-[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/hull_panels.png)
+[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/hull_panels.png)
 *Visual 2.* Use a complementary panel, collage, or set of snapshots that reinforces supporting evidence.
 
 ![Complementary result figure placeholder](assets/main_result.png)
-[Raw photo location: main_result.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/main_result.png)
+[Raw photo location: main_result.png](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/docs/assets/main_result.png)
 *Visual 3.* Highlight an additional visual that captures a secondary insight or next step.
 
 <iframe
@@ -157,10 +159,10 @@ Explain who is impacted and how this could change decisions or understanding.
   <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/code/fired_time_hull_panel.ipynb"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
+  <a href="https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/code/fired_time_hull_panel.ipynb"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/code/single_hull_demo.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
+  <a href="https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/code/single_hull_demo.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
 </td>
 </tr>
 </table>
@@ -170,8 +172,8 @@ Explain who is impacted and how this could change decisions or understanding.
 ## Team
 | Name | Role | Contact | GitHub |
 |------|------|---------|--------|
-| Jane Doe | Lead | jane.doe@example.org | @janedoe |
-| John Smith | Analyst | john.smith@example.org | @jsmith |
+| _Add teammate name_ | _Role (e.g., coordinator, modeler)_ | _email or Slack handle_ | @_github_ |
+| _Add teammate name_ | _Role (e.g., data wrangler)_ | _email or Slack handle_ | @_github_ |
 
 ---
 
@@ -180,19 +182,19 @@ Explain who is impacted and how this could change decisions or understanding.
 ## Storage
 
 Code
-Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code) directory. Document how to run them in a README or within the files so teammates and visitors can reproduce your workflow.
+Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/tree/main/code) directory. Document how to run them in a README or within the files so teammates and visitors can reproduce your workflow.
 
 Documentation
-Use the [`docs/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/documentation); summarize key takeaways here so the public story stays current.
+Use the [`docs/`](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/tree/main/documentation); summarize key takeaways here so the public story stays current.
 
 ---
 
 ## Cite & reuse
 If you use these materials, please cite:
 
-> Lastname, A., Lastname, B. (2025). *Project title*. DOI or URL.
+> Innovation Summit 2025 Group 10. (2025). *Ecoregional Models: PNW Regime Shifts Hazards*. https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10
 
-License: CC-BY-4.0 unless noted. See dataset licenses on the **[Data](data.md)** page.
+License: Code is MIT; documentation and visuals are CC-BY-4.0 unless noted. See dataset licenses on the **[Data](data.md)** page.
 
 ---
 
