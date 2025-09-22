@@ -25,7 +25,7 @@ nav:
   - Storage:
       - Your code: https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/tree/main/code
       - Your documentation: https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/tree/main/documentation
-      - Your persistent storage: "https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_10"
+      - Your persistent storage: "https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_10?type=folder&resourceId=b0fc55b6-95a0-11f0-b0fb-90e2ba675364"
   - Orientation:
       - Summit slides: orientation/slides.md
       - ESIIL training: orientation/esiil_training.md

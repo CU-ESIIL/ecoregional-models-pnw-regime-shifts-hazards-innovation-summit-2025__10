@@ -12,7 +12,7 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 
 **One sentence on impact:** In three days, we spotlight emerging Pacific Northwest regime-shift hazards and deliver decision-ready visuals, a concise brief, and shareable code.
 
-**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/tree/main/code) · [Data & access](data.md)**
+**[Project brief (PDF)](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdfa) · [View shared code](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/code/fired_time_hull_panel.ipynb) · [Explore data](https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/code/prism_quicklook.py)**
 
 This sprint assembles rapid-turnaround models, visuals, and narratives that clarify how coupled ecological and social systems across the Pacific Northwest may tip into new regimes under emerging hazards.
 
@@ -156,13 +156,13 @@ Explain who is impacted and how this could change decisions or understanding.
 <table>
 <tr>
 <td align="center" width="33%">
-  <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
+  <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdfa"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
 </td>
 <td align="center" width="33%">
   <a href="https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/code/fired_time_hull_panel.ipynb"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/code/single_hull_demo.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
+  <a href="https://github.com/CU-ESIIL/ecoregional-models-pnw-regime-shifts-hazards-innovation-summit-2025__10/blob/main/code/prism_quicklook.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
 </td>
 </tr>
 </table>
