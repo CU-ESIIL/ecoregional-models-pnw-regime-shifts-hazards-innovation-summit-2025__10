@@ -1,9 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
-title: "Project Group OASIS"
-version: "1.0.0"
-doi: 10.5281/zenodo.11166898
-date-released: 2025-09-10
+title: "Ecoregional Models: PNW Regime Shifts Hazards"
+abstract: "Innovation Summit 2025 Group 10 repository for sharing rapid analyses, documentation, and web updates on Pacific Northwest regime-shift hazards."
+version: "0.1.0"
 authors:
-  - family-names: Tuff
-    given-names: Ty
+  - name: "Innovation Summit 2025 Group 10"
